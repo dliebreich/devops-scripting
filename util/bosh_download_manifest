@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$2" == "/banana1.yml" ]; then
+  echo "Errno::EACCESS" >&2
+  exit 1
+fi
+
+echo $1 > $2
+echo "Deployment manifest saved to $2"

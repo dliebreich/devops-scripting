@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Target set to \`$1'"
